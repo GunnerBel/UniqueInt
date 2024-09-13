@@ -89,4 +89,4 @@ class UniqueInt:
 # Example usage of the UniqueInt class
 unique_int_processor = UniqueInt()
 # Process the sample input file and generate the result file
-unique_int_processor.run('/dsa/hw01/sample_inputs/sample_input_02.txt', '/dsa/hw01/sample_results/sample_input_02_results.txt')
+unique_int_processor.run('../../sample_inputs/small_sample_input_02.txt', '../../sample_results/small_sample_input_02.txt_results.txt')
