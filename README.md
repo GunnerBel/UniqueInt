@@ -15,10 +15,10 @@ File Structure
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       └── UniqueInt.py        # The main Python file containing the implementation<br><br>
 │
 ├── sample_inputs/              # Folder containing sample input files<br>
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   └── sample_input_02.txt     # Example input file<br><br>
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   └── small_sample_input_02.txt     # Example input file<br><br>
 │
 ├── sample_results/             # Folder to store output files<br>
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   └── sample_input_02_results.txt  # Example output file for the corresponding input<br><br>
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   └── small_sample_input_02.txt_results.txt  # Example output file for the corresponding input<br><br>
 │
 └── README.md                   # This README file<be>
 
@@ -48,14 +48,14 @@ processFile(inputFilePath, outputFilePath): Reads the entire input file, checks 
 run(inputFilePath, outputFilePath): Runs the processing while measuring execution time.
 Boolean Array for Tracking: A boolean array (seen) of size 2047 is used to track whether an integer has been encountered before. The array indexes represent numbers from -1023 to 1023.
 
-Manual Sorting: A simple comparison-based sorting algorithm is used to avoid the use of built-in sort functions.
+Manual Sorting: A simple comparison-based sorting algorithm is used to avoid built-in sort functions.
 
 <h2>How to Run the Project</h2>
-1. Clone the Repository: If applicable, provide instructions for cloning the project.
+1. Clone the Repository: Provide instructions for cloning the project if applicable.
 
 2. Running the Code:
 
-Navigate to the code/src/ directory.
+You can just navigate to the code/src/ directory.
 Run the Python script using the following command
 
 *./UniqueInt.py*
